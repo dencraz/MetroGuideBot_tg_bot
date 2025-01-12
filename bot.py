@@ -6,7 +6,7 @@ from telebot import types
 import threading
 
 # Инициализация бота
-bot = telebot.TeleBot('7897112705:AAFdWM5Odzdpw7r1htpYFNvUlckX23pIJb8')  # Замените на ваш токен
+bot = telebot.TeleBot('')  # Замените на ваш токен
 
 def AI_answer(text: str, prompt: str = '', request_theme: str = "Metro Exodus", model: str = 'gpt-4o', limit: int = 3, timeout: int = 100) -> str | None:
     def send_request():
